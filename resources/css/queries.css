@@ -137,7 +137,17 @@ textarea{
     margin: 0 auto;
 }
 
+.container {
+    margin: 5px 15px !important;
+    width: 85% !important;
+}
     
+header {
+    
+height: 92vh;
+
+}
+
 .main-nav{
     float: right;
     list-style: none;

@@ -126,13 +126,15 @@ h2:after{
  
 }
 
+
+
 /*-------------icon big---------------*/
 .icon-big{
     font-size: 400%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
-    
+   
 }
 
 .logo{
@@ -252,9 +254,27 @@ h2:after{
 /*---------------------------------------*/
 /*MEALS*/
 /*---------------------------------------*/
-.section-meals{
-    padding: 0;
+
+.container{
+    background-color: #e4ecf5;
+    padding: 20px;
+    border-radius: 8%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
+
+
+.container div{
+    display: inline;
+}
+
+.container:hover{
+    background-color: #d6e7f8;
+    padding: 20px;
+    border-radius: 8%;
+    transform: scale(1.2);
+}
+
 
 
 
@@ -289,6 +309,25 @@ h2:after{
 .meal-photo img:hover{
     opacity: 1;
     transform: scale(1.03);
+}
+
+.quote1{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.84),rgba(0, 0, 0, 0.75)), url(img/hero1.jpg);
+    background-size: cover;
+    color: #fff; 
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+.quote1 p{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 10px  black;
+}
+
+.cite p{
+    font-size: 40px;
+    color: #cf6d17;
 }
 
 /*---------------------------------------*/
