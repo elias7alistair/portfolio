@@ -148,6 +148,12 @@ height: 92vh;
 
 }
 
+.quote1{
+
+ height: 70vh;
+
+}
+
 .main-nav{
     float: right;
     list-style: none;
@@ -194,8 +200,11 @@ height: 92vh;
 }
     
 
-    
+.quote1{
+    background-size: contain;
 }
+    
+
 
 
 
